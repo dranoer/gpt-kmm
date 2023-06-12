@@ -1,6 +1,7 @@
 plugins {
     id("com.android.application")
     kotlin("android")
+    id("kotlin-parcelize")
 }
 
 android {
@@ -48,4 +49,10 @@ dependencies {
     implementation(libs.androidx.compose.material)
     //Compose Utils
     implementation(libs.activity.compose)
+    //Coroutines
+    implementation(libs.kotlinx.coroutines.core)
+    implementation(libs.kotlinx.coroutines.android)
+//    DI
+    implementation(libs.koin.core)
+    implementation(libs.koin.android)
 }
