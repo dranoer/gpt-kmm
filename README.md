@@ -1,4 +1,4 @@
-# GptPlus
+# gpt
 OpenAI APIs with Kotlin Mutlti Platform
 
 
